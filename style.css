@@ -1,0 +1,228 @@
+
+body{
+    /*background-image: url(images/fond_jaune.png);*/
+    background: #1c1a19;
+}
+h1, h2, p{
+    color: #07af82;   
+}
+
+#baniere{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('photo/les_goudes_7.jpg') no-repeat 36px , url('photo/les_goudes_8.jpg') no-repeat 480px, url('photo/les_goudes.jpg') no-repeat 790px, url('photo/les_goudes_2.jpg') no-repeat 1032px, url('photo/les_goudes_3.jpg') no-repeat 1274px, url('photo/les_goudes_6.jpg') no-repeat 1584px, url('images/lodyas.png');
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.8%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background: rgba(22, 22, 22, 0.6);
+    color: white;
+    font-size: 0.8em;    
+}
+
+.les_goudes
+{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.les_goudes img
+{
+    border: 0;
+}
+#side-bar {
+    position: absolute;
+    width: 230px;
+    height: 300%;
+    background: #07af82;
+    left: -300px;
+    transition: .5s ease-out;
+    z-index: 4;
+}
+.toggle-button {
+    position: absolute;
+    top: 30px;
+    left: 310px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+.toggle-button span {
+    width: 60px;
+    height: 10px;
+    border-radius: 5px;
+    background: #07af82;
+    display: block;
+    margin-top: 4px;
+    transition: .5s ease;
+}
+li a {
+    color: #292929;
+    font-size:  2rem;
+    cursor: pointer;
+    padding-left:5px;
+}
+li a:hover{
+    background: #292929;
+    color: #FCFCFB;
+}
+#liste{
+    list-style-type: none;
+}
+
+#side-bar.active {
+    left: 0;
+}
+#side-bar.active .toggle-button{
+    top: 2.8rem;
+    left: 235px;
+}
+#side-bar.active span{
+    position: absolute;
+}
+#side-bar.active span:nth-child(1) {
+    transform: rotate(45deg);
+}
+#side-bar.active span:nth-child(2) {
+    opacity: 0;
+}
+#side-bar.active span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+#side-bar.active ~ .content{
+    opacity: 0.3;
+}
+
+#passion {
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+}
+.tableau{
+    display: flex;
+    justify-content: center;
+}
+
+.cuisine{
+    text-align: center;
+    border: 2px black solid;
+    width: 350px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.dessin{
+    text-align: center;
+    border: 2px black solid;
+    width: 350px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.brico{
+    text-align: center;
+    border: 2px black solid;
+    width: 350px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.dragonball{
+    text-align: center;
+}
+
+.collection{
+    border: 2px red groove;
+    border-radius: 10px;
+    width: 40%;
+    min-width: 500px;
+    margin:auto;
+}
+
+/*nav{
+    text-align: center;
+}
+
+.facebook{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;   
+    box-shadow: 2px 2px 2px black;
+    background: rgba(150, 150, 150, 0.5);
+    margin-right: 20px;
+}
+.mail{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px black;
+    background: rgba(150, 150, 150, 0.5);
+    margin-right: 20px;
+}*/
+
+.presentation {
+    text-align: center;
+    font-size: 5em;
+    text-decoration: underline;
+}
+#bonjour, #presentation{
+    font-size: 1.5em;
+    margin: 40px 40px;
+}
+#collection {
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    background: rgba(22, 22, 22, 0.4);
+    border: 3px black;
+    box-shadow: 3px 3px 3px black;
+    height: 330px;
+    /*width: 1400px; a modifié pour petit et grand ecran*/
+    overflow: scroll;
+    margin:auto;
+    margin-top: 50px;
+}
+#bonjour{
+    text-align: center;
+}
+a {
+    color:#a31618;
+}
+#projet h2{
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+}
+#projet p {
+    font-size: 1.8em;
+    border: 2px red groove;
+    border-radius: 10px;
+    padding: 10px;
+}

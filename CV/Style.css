@@ -1,0 +1,58 @@
+body {
+  min-height: 100%;
+  background-image: url(./mur.jpg);
+  opacity: 2;
+  background-position: top right;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1 {
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px rgb(165, 161, 161);
+  background-color: rgb(129, 83, 22);
+  border: 3px rgb(51, 35, 4) ridge;
+  border-radius: 25px/50px;
+  box-shadow: 10px 10px 15px rgb(51, 35, 4);
+  width: 100%;
+  margin: auto;
+}
+h2 {
+  background-color: burlywood;
+  border: 3px rgb(117, 84, 23) ridge;
+  border-radius: 25px/50px;
+  box-shadow: 5px 5px 8px rgb(117, 84, 23);
+  font-size: x-large;
+}
+ul,
+p {
+  background-color: rgb(238, 224, 197);
+  border: 3px rgb(206, 186, 148) ridge;
+  border-radius: 25px/50px;
+  box-shadow: 5px 5px 8px rgb(165, 155, 137);
+  padding: 10px 40px 10px 70px;
+  /* text-align: center; */
+}
+ul {
+  list-style-type: none;
+}
+
+figure,
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 100px;
+}
+.fin {
+  font-size: 3em;
+  background-color: rgb(7, 79, 128);
+  border: 8px rgb(3, 30, 80) ridge;
+  border-radius: 25px/50px;
+  box-shadow: 5px 5px 15px rgb(3, 30, 80);
+}
+.contact {
+  background-color: rgb(136, 93, 36);
+  width: 750px;
+  margin: auto;
+}
